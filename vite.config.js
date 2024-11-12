@@ -1,9 +1,8 @@
+// vite.config.js
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 export default defineConfig({
   plugins: [react()],
-  base: '/mini-project-react/', // Use the exact name of your repository here
+  base: './', // Add this line
 });
-
-// https://vitejs.dev/config
